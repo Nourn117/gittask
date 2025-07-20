@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         // try changing the seedColor in the colorScheme below to Colors.green
         // and then invoke "hot reload" (save your changes or press the "hot
         // reload" button in a Flutter-supported IDE, or press "r" if you used
+
         // the command line to start the app).
         //
         // Notice that the counter didn't reset back to zero; the application
@@ -119,4 +120,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+  void main() {
+  int number = 7;
+
+  if (number % 2 == 0) {
+    print('$number is even');
+  } else {
+    print('$number is odd');
+  }
+}
 }
