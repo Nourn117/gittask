@@ -126,7 +126,8 @@ class _MyHomePageState extends State<MyHomePage> {
   if (number % 2 == 0) {
     print('$number is even');
   } else {
-    print('$number is odd');
+    print('$number is od');
   }
 }
+
 }
