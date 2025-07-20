@@ -119,4 +119,14 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+  void main() {
+  int number = 7;
+
+  if (number % 2 == 0) {
+    print('$number is even');
+  } else {
+    print('$number is od');
+  }
+}
+
 }
